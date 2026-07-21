@@ -339,11 +339,11 @@ h1 {
     justify-self: center;
     padding-top: 0;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .eyebrow {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   h1 {
