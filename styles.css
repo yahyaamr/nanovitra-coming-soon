@@ -319,6 +319,7 @@ h1 {
   }
 
   .hero {
+    grid-template-rows: 1fr;
     min-height: 100svh;
     padding: 1.15rem;
   }
@@ -334,9 +335,15 @@ h1 {
   }
 
   .hero__content {
-    align-self: start;
-    padding-top: 12svh;
+    align-self: center;
+    justify-self: center;
+    padding-top: 0;
     padding-left: 0;
+    text-align: center;
+  }
+
+  .eyebrow {
+    justify-content: center;
   }
 
   h1 {
@@ -351,14 +358,19 @@ h1 {
   }
 
   .hero__footer {
+    position: absolute;
+    right: 1.15rem;
+    bottom: 1.15rem;
+    left: 1.15rem;
     padding-left: 0;
     padding-bottom: 0.2rem;
+    justify-content: center;
   }
 }
 
 @media (max-width: 460px) {
   .hero__content {
-    padding-top: 10svh;
+    padding-top: 0;
   }
 
   .eyebrow {
