@@ -2,6 +2,8 @@
 
 A premium static landing page for NanoVitra.
 
+Deployed with Vercel from GitHub.
+
 ## Local Preview
 
 ```bash
